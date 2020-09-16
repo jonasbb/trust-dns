@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - main
+      - improve-server
       - release/**
   pull_request:
     branches:
       - main
+      - improve-server
       - release/**
   schedule:
     - cron:  '0 3 * * 4'
